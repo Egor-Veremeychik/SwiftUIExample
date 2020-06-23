@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SwiftUIExample
-//
-//  Created by Egor Veremeychik on 6/23/20.
-//  Copyright © 2020 Egor Veremeychik. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
