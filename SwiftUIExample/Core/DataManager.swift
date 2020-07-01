@@ -3,6 +3,7 @@ import UIKit
 import SwiftUI
 
 let landmarkData: [Landmark] = load("LandmarkData.json")
+let features = landmarkData.filter { $0.isFeatured }
 let hikeData: [Hike] = load("HikeData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
