@@ -1,6 +1,7 @@
 import CoreLocation
 import UIKit
 import SwiftUI
+import ImageIO
 
 let landmarkData: [Landmark] = load("LandmarkData.json")
 let features = landmarkData.filter { $0.isFeatured }
